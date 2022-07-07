@@ -1,0 +1,23 @@
+* Test Driven Development ve Behaviour Driven Development arasındaki farkı açıklayınız.
+
+- TDD bir geliştirme uygulamasıdır , BDD ise bir ekip metodolojisidir .
+TDD’de geliştiriciler testleri yazarken, BDD’de otomatik özellikler kullanıcılar veya testçiler tarafından oluşturulur (geliştiriciler bunları test edilen koda bağlarlar.)
+
+
+* Unit Test nedir? 
+
+- Unit Test yazılım testinin ilk seviyesidir ve bir yazılımın en küçük test edilebilir bölümlerinin, tek tek ve bağımsız olarak doğru çalışması için incelendiği bir yazılım geliştirme sürecidir.
+
+* Unit Test nasıl yapılır?
+
+1- En küçük parçacığı test edilmeli
+2- Sadece bir senaryo test edilir.
+3- Kullanılan adımlar belirlenir.
+4- Test method ismi test edilen senaryonun yansıması olmalıdır.
+5- Test edilen kısım diğer kısımlardan bağımsız olmalıdır.
+6- Testlerimiz tam otomatik şekilde çalışmalıdır.
+7- Hızlı çalışabilmeli ve çabuk sonuçlar vermelidir.
+8- Okunaklı, anlaşılabilir ve sürdürebilir olmalıdır.
+9- Test başarısız olduğunda durmalı ve iyi bir hata raporu döndürmelidir. Bu hata raporunda neyi test ettin ? ne yapmalı ? beklenen çıktı neydi ve gerçekte ne yaptığıdır ?
+
+
